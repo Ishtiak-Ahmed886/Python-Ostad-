@@ -13,3 +13,7 @@ b_new = [i**2 if i%2 == 0 else i for i in b]
 print(b_new)
 c = [i*j for i in range(1,4) for j in range(1,4)]
 print(c)
+
+nums = list(range(0,11))
+result ={i: "Even" if i%2 ==0 else "Odd" for i in nums}
+print(result)
